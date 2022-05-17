@@ -1,0 +1,16 @@
+[Motor.SimpleMotor.PendulumJoint]
+joint_name = "PendulumJoint"
+mechanicalReduction = 1.0
+armature = 0.0
+frictionViscousPositive = -0.0
+frictionViscousNegative = -0.0
+frictionDryPositive = -0.0
+frictionDryNegative = -0.0
+frictionDrySlope = -0.0
+
+[Sensor.EncoderSensor.PendulumJoint]
+joint_name = "PendulumJoint"
+bias = [0.1, 0.0]
+delay = 0.0
+delayInterpolationOrder = 0
+noiseStd = [0.02]
